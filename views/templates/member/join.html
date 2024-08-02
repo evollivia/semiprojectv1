@@ -5,7 +5,11 @@
     <title>세미프로젝트</title>
     <link rel="stylesheet" href="/static/css/project.css">
     <style>
-
+        form {width: 350px; margin: 120px auto;}
+        form label{display: inline-block; width: 120px; text-align: right; font-weight: bold}
+        form input{padding: 5px}
+        form div {margin: 5px 0}
+        button{margin-left: 6px; padding: 5px}
     </style>
 </head>
 <body>
@@ -37,7 +41,8 @@
                     <input type="text" name="name" id="name" required></div>
                 <div><label for="email">이메일</label>
                     <input type="email" name="email" id="email" required></div>
-                <div><button type="submit" id="joinbtn">입력완료</button>
+                <div><label></label>
+                    <button type="submit" id="joinbtn">입력완료</button>
                     <button type="reset" id="rstbtn">다시입력</button></div>
             </form>
         </main>
